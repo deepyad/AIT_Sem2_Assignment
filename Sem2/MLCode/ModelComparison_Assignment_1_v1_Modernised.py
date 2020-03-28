@@ -19,6 +19,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 from sklearn import svm
 from sklearn.model_selection import GridSearchCV
+from sklearn.neighbors import KNeighborsClassifier
 
 # import warnings filter
 from warnings import simplefilter
@@ -52,11 +53,22 @@ print('Classification Report')
 print(classification_report(y_test, y_pred))
 #metrics.f1_score(y_test, y_pred, labels=np.unique(y_pred),average ='weighted')
 #(_, _, f1, _) = metrics.precision_recall_fscore_support(y_test, y_pred,average='weighted',warn_for=tuple())
-print("Linear Regression Analysys Accuracy:",metrics.accuracy_score(y_test, y_pred))
+#print(len(y_test))
+#print(len(y_pred))
+#from sklearn.metrics import mean_absolute_error
+#from sklearn.metrics import mean_squared_error
+#mean_absolute_error((y_test.asType(float)), y_pred.asType(float))
+#mean_squared_error(y_test,y_pred)
+#print("In test",metrics.mean_squared_error(y_test, y_pred))
+print("Linear Regression Analysys Accuracy:",metrics.accuracy_score(y_test, y_pred)*100)
 # Model Precision: what percentage of positive tuples are labeled as such?
 print("Linear Regression Analysis Precision:",metrics.precision_score(y_test, y_pred, average='weighted'))
 # Model Recall: what percentage of positive tuples are labelled as such?
 print("Linear Regression Analysis Recall:",metrics.recall_score(y_test, y_pred, average ='weighted'))
+kfold = model_selection.KFold(n_splits=10, random_state=10)
+results = model_selection.cross_val_score(logreg, x, y, cv=kfold)
+print("Linear Regression Mean after cross Validation: ", results.mean())  
+#, results.std()
 
 print('************Bagged Decision Analysis Section****************')
 #The precision is the ratio tp / (tp + fp) where tp is the number of true positives and fp the number of false positives. The precision is intuitively the ability of the classifier not to label as positive a sample that is negative.
@@ -116,6 +128,7 @@ print("SVM Precision:",metrics.precision_score(y_test, y_pred, average ='weighte
 # Model Recall: what percentage of positive tuples are labelled as such?
 print("SVM Recall:",metrics.recall_score(y_test, y_pred,average ='weighted'))
 
+
 print('************Voting Classifier Analysis Section****************')
 #Voting Classifier
 kfold_vc = model_selection.KFold(n_splits=10, random_state=10)
@@ -134,6 +147,18 @@ results_vc = model_selection.cross_val_score(ensemble, x, y, cv=kfold_vc)
 print('Voting Classifier Mean ',results_vc.mean())
 print("Voting Classifier Accuracy:",metrics.accuracy_score(y_test, y_pred))
 print("Voting Classifier Recall:",metrics.recall_score(y_test, y_pred,average ='weighted'))
+print("Voting Classifier Precision :",metrics.precision_score(y_test, y_pred,average ='weighted'))
+
+print('************KNN Algorithm Analysis Section****************')
+kfold = model_selection.KFold(n_splits=10, random_state=10)
+model_knn= KNeighborsClassifier(n_neighbors=15)
+model_knn.fit(X_train, y_train)
+y_pred = model_knn.predict(X_test)
+results_1 = model_selection.cross_val_score(model_knn, x, y, cv=kfold)
+print("KNN Algorithm Accuracy:",metrics.accuracy_score(y_test, y_pred)*100)
+print('KNN Algorithm Mean',results_1.mean())
+print("KNN Algorithm Precision:",metrics.precision_score(y_test, y_pred,average ='weighted'))
+print("KNN Algorithm Recall:",metrics.recall_score(y_test, y_pred,average ='weighted'))
 
 print('************Neuoron Network Analysis(Default Parameters) Section****************')
 #Neuron Network Classifier
@@ -143,13 +168,18 @@ mlp.fit(X_train,y_train)
 predict_train = mlp.predict(X_train)
 predict_test = mlp.predict(X_test)
 from sklearn.metrics import classification_report,confusion_matrix
-print('Neuron Network Train Section Confusion Matrix')
+print('---------Neuron Network Train Section Confusion Matrix---------')
 print(confusion_matrix(y_train,predict_train))
-print('Neuron Network Trainaing Data Classification Report')
+print('---------Neuron Network Trainaing Data Classification Report---------')
 print(classification_report(y_train,predict_train))
 print('Neuron Network Test Section Confusion Matrix')
-print(confusion_matrix(y_test,predict_test))
-print('Neuron Network Test Data Classification Report')
+cm=confusion_matrix(y_test,predict_test)
+print(cm)
+recall = np.diag(cm) / np.sum(cm, axis = 1)
+precision = np.diag(cm) / np.sum(cm, axis = 0)
+print("Neuron Network Recall :",np.mean(recall))
+print("Neuron Network Precision :",np.mean(precision))
+print('---------Neuron Network Test Data Classification Report---------')
 print(classification_report(y_test,predict_test))
 print('Neuron Network Accuracy :',metrics.accuracy_score(y_test,predict_test))
 
@@ -188,11 +218,17 @@ predict_test = mlp.predict(X_test)
 from sklearn.metrics import classification_report,confusion_matrix
 print('Neuron Network Train Section Confusion Matrix')
 print(confusion_matrix(y_train,predict_train))
-print('Neuron Network Trainaing Data Classification Report')
+print('Neuron Network Training Data Classification Report')
 print(classification_report(y_train,predict_train))
-print('Neuron Network Test Section Confusion Matrix')
-print(confusion_matrix(y_test,predict_test))
-print('Neuron Network Test Data Classification Report')
+print('---------Neuron Network Test Section Confusion Matrix---------')
+cm=confusion_matrix(y_test,predict_test)
+print(cm)
+recall = np.diag(cm) / np.sum(cm, axis = 1)
+precision = np.diag(cm) / np.sum(cm, axis = 0)
+print("Neuron Network Recall :",np.mean(recall))
+print("Neuron Network Precision :",np.mean(precision))
+
+print('---------Neuron Network Test Data Classification Report---------')
 print(classification_report(y_test,predict_test))
 print('Neuron Network Accuracy :',metrics.accuracy_score(y_test,predict_test))
 print('current loss computed with the loss function: ',mlp.loss_)
