@@ -11,6 +11,7 @@ from tweepy import OAuthHandler
 from textblob import TextBlob 
 import Vader_Analyser
 import TextBlob_Analyser
+import Pre_Processing_Text
 class TwitterClient(object): 
 
 	def __init__(self): 
@@ -24,33 +25,12 @@ class TwitterClient(object):
 			self.auth = OAuthHandler(consumer_key, consumer_secret) 
 			self.auth.set_access_token(access_token, access_token_secret) 
 			self.api = tweepy.API(self.auth) 
-			checking=self.api.user_timeline(screen_name = 'Donald J. Trump',count=200)
-			print("Checking=>",len(checking)) 
+		#	checking=self.api.user_timeline(screen_name = 'Donald J. Trump',count=200)
+		#	print("Checking=>",len(checking)) 
 		except: 
 			print("Error: Authentication Failed") 
 
-	def clean_tweet(self, tweet): 
-		''' 
-		Utility function to clean tweet text by removing links, special characters 
-		using simple regex statements. 
-		'''
-		return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t]) |(\w+:\/\/\S+)", " ", tweet).split()) 
-
-	def get_tweet_sentiment(self, tweet): 
-		''' 
-		Utility function to classify sentiment of passed tweet 
-		using textblob's sentiment method 
-		'''
-		analysis = TextBlob(self.clean_tweet(tweet))  
-		if analysis.sentiment.polarity > 0: 
-			return 'positive'
-		elif analysis.sentiment.polarity == 0: 
-			return 'neutral'
-		else: 
-			return 'negative'
-
-
-	def get_tweets(self, query, count = 500): 
+	def get_tweets_from_web(self, query, count = 500): 
 
 		tweets = [] 
 		try: 
@@ -59,7 +39,7 @@ class TwitterClient(object):
 			for tweet in fetched_tweets: 
 				parsed_tweet = {} 
 				parsed_tweet['text'] = str(tweet.text )
-				parsed_tweet['sentiment'] = str(self.get_tweet_sentiment(str(tweet.text)) )
+				parsed_tweet['sentiment'] = str(TextBlob_Analyser.get_tweet_sentiment(str(tweet.text)) )
 
 				# appending parsed tweet to tweets list 
 				if tweet.retweet_count > 0: 
@@ -74,35 +54,24 @@ class TwitterClient(object):
 			print("Error : " + str(e)) 
 
 
-	def read_tweets(self): 
+	def read_tweets_from_file(self): 
 
 		tweets = [] 
 		
 		try: 
 			# call twitter api to fetch tweets 
             #trump_data_unique_joined.csv
-			with open('trump_data_unique_joined.csv', 'r',encoding="utf-8") as file:
+			with open('trump_data_unique_joined_Removed_PosNegNuet.csv', 'r',encoding="utf-8") as file:
 				reader = csv.reader(file)
+				next(reader, None)
 				for row in reader:
-					#print(row)
-				    parsed_tweet = {} 
-				#read_tweets = self.api.search(q = query, count = count) 
-			#for tweet in fetched_tweets: 
-			#	
+				    parsed_tweet = {}
 				    parsed_tweet['text'] = str(row )
-				    parsed_tweet['sentiment'] = str(self.get_tweet_sentiment(str(row)) )
-				#	print('parsed_tweet[text] ',parsed_tweet['text'])
-				#	print('parsed_tweet[sentiment]',parsed_tweet['sentiment'])
-				# appending parsed tweet to tweets list 
-			#	if tweet.retweet_count > 0: 
-					# if tweet has retweets, ensure that it is appended only once 
+				    parsed_tweet['sentiment'] = str(TextBlob_Analyser.get_tweet_sentiment(str(row)) )
+				    print('parsed_tweet[0]',parsed_tweet['text'])
+				    print('parsed_tweet[1]',parsed_tweet['sentiment'])
 				    if parsed_tweet not in tweets: 
 				    				    tweets.append(parsed_tweet) 
-                    
-				#	else: 
-				#		tweets.append(parsed_tweet) 
-				#for x in tweets:
-				#	print('<=>',x)
 			return tweets 
 
 		except tweepy.TweepError as e: 
@@ -112,50 +81,37 @@ class TwitterClient(object):
 def main(): 
  
 	api = TwitterClient() 
-	#web_tweets=api.user_timeline(screen_name = 'Donald J. Trump',count=200)
-	web_tweets = api.get_tweets(query = 'Donald J. Trump', count = 5000000) 
-	file_tweets=api.read_tweets()
+	web_tweets = api.get_tweets_from_web(query = 'Trump', count = 5000000) 
+
+	file_tweets=api.read_tweets_from_file()
+
 	tweets=web_tweets+file_tweets
-	#tweets.append(web_tweets)
+
 	ptweets = [tweet for tweet in tweets if tweet['sentiment'] == 'positive'] 
 	ntweets = [tweet for tweet in tweets if tweet['sentiment'] == 'negative'] 
 	neutweets = [tweet for tweet in tweets if tweet['sentiment'] == 'neutral'] 
 
-	print("\n\n ********** TextBlob labelled Positive tweets:") 
-	for tweet in ptweets[:10]: 
-		print('Tweet=> ',tweet['text'])
-		print('---Vader Analysis of above positive(as per TextBlob\'s classification) tweet---')
-		print(Vader_Analyser.sentiment_scores(tweet['text'])) 
-		print('----')	
-	print("\n\n ********** TextBlob labelled Negative tweets:") 
-	for tweet in ntweets[:10]: 
-		print('Tweet=> ',tweet['text']) 
-		print('---Vader Analysis of above negative(as per TextBlob\'s classification) tweet---')
-		print(Vader_Analyser.sentiment_scores(tweet['text']))
-		print('----')	        
-	print("\n\n ********** TextBlob labelled Neutral tweets:") 
-	for tweet in neutweets[:10]: 
-		print('Tweet=> ',tweet['text'])
-		print('---Vader Analysis of above neutral(as per TextBlob\'s classification) tweet---')
-		print(Vader_Analyser.sentiment_scores(tweet['text']))
-		print('----')	
 	
 	with open(r'TweetsFinalAnalysis.csv', 'w', newline='',encoding="utf-8") as csvfile:
-		fieldnames = ['Tweet','TextBlob Polarity','TextBlob Score','Vader Polarity','Vader Score']
+		fieldnames = ['Tweet','Filtered Tweet','TextBlob Polarity','TextBlob Score','Vader Polarity','Vader Score']
 		writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 		writer.writeheader()	 
 		for tweet in ptweets: 
 			va=Vader_Analyser.sentiment_scores(tweet['text'])
-			writer.writerow({'Tweet':tweet['text'], 'TextBlob Polarity': 'Positive','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
+			writer.writerow({'Tweet':tweet['text'],'Filtered Tweet':Pre_Processing_Text.pre_process(tweet['text']), 'TextBlob Polarity': 'Positive','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
 		for tweet in ntweets: 
 			va=Vader_Analyser.sentiment_scores(tweet['text'])
-			writer.writerow({'Tweet':tweet['text'], 'TextBlob Polarity':'Negative','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
+			writer.writerow({'Tweet':tweet['text'],'Filtered Tweet':Pre_Processing_Text.pre_process(tweet['text']),'TextBlob Polarity':'Negative','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
 		for tweet in neutweets: 
 			va=Vader_Analyser.sentiment_scores(tweet['text'])
-			writer.writerow({'Tweet':tweet['text'], 'TextBlob Polarity':'Neutral','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
+			writer.writerow({'Tweet':tweet['text'],'Filtered Tweet':Pre_Processing_Text.pre_process(tweet['text']), 'TextBlob Polarity':'Neutral','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
 
 	print('Size of tweets:=',len(tweets))
-	print('TextBlob Analysis overall %')
+	print('Tweets Read from the Web:=',len(web_tweets))
+	print('Tweets Read from the File:=',len(file_tweets))
+	print('Size of Positive tweets:=',len(ptweets))
+	print('Size of Negative tweets:=',len(ntweets))
+	print('Size of Neutral tweets:=',len(neutweets))
 	print("Positive tweets percentage: {} %".format(100*len(ptweets)/len(tweets))) 
 	print("Negative tweets percentage: {} %".format(100*len(ntweets)/len(tweets))) 
 	print("Neutral tweets percentage: {} %".format(100*len(neutweets)/len(tweets))) 

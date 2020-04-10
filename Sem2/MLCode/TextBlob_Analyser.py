@@ -5,15 +5,7 @@ Created on Mon Apr  6 20:35:12 2020
 @author: deepy
 """
 from textblob import TextBlob 
-import re 
-
-def clean_tweet(tweet): 
-		''' 
-		Utility function to clean tweet text by removing links, special characters 
-		using simple regex statements. 
-		'''
-		return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t]) |(\w+:\/\/\S+)", " ", tweet).split()) 
-
+import Pre_Processing_Text
 
 
 def get_tweet_sentiment_score(tweet): 
@@ -21,5 +13,18 @@ def get_tweet_sentiment_score(tweet):
 		Utility function to classify sentiment of passed tweet 
 		using textblob's sentiment method 
 		'''
-		analysis = TextBlob(clean_tweet(tweet)) 
+		analysis = TextBlob(Pre_Processing_Text.pre_process(tweet)) 
 		return analysis.sentiment.polarity
+
+def get_tweet_sentiment(tweet): 
+		''' 
+		Utility function to classify sentiment of passed tweet 
+		using textblob's sentiment method 
+		'''
+		analysis = TextBlob(Pre_Processing_Text.pre_process(tweet))  
+		if analysis.sentiment.polarity > 0: 
+			return 'positive'
+		elif analysis.sentiment.polarity == 0: 
+			return 'neutral'
+		else: 
+			return 'negative'

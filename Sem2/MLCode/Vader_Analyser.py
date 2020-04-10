@@ -8,30 +8,30 @@ Created on Sun Apr  5 15:59:42 2020
 
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer 
 
+import Pre_Processing_Text
 def sentiment_scores(sentence): 
 
 	# Create a SentimentIntensityAnalyzer object. 
 	sid_obj = SentimentIntensityAnalyzer() 
 	vp='undefined'
 	fig=0
-	sentiment_dict = sid_obj.polarity_scores(sentence) 
 	
-#	print("Overall sentiment dictionary is : ", sentiment_dict) 
-#	print("sentence was rated as ", sentiment_dict['neg']*100, "% Negative") 
-#	print("sentence was rated as ", sentiment_dict['neu']*100, "% Neutral") 
-#	print("sentence was rated as ", sentiment_dict['pos']*100, "% Positive") 
+	preprocessed_text=Pre_Processing_Text.pre_process(sentence)
+	
+	print('preprocessed_text='+str(preprocessed_text))
+	sentiment_dict = sid_obj.polarity_scores(preprocessed_text) 
 
-#	print("Sentence Overall Rated by Vader As", end = " ") 
 	fig=sentiment_dict['compound']
 	# decide sentiment as positive, negative and neutral 
 	if sentiment_dict['compound'] >= 0.05 : 
 #		print("Positive") 
-		vp='Positive'
+		vp='positive'
 	elif sentiment_dict['compound'] <= - 0.05 : 
 #		print("Negative") 
-		vp='Negative'
+		vp='negative'
 	else : 
 #		print("Neutral") 
-		vp='Neutral'
-
+		vp='neutral'
+	print("vp",vp," fig",fig) 
 	return vp,fig
+
