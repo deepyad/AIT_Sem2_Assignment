@@ -2,7 +2,7 @@
 """
 Created on Sat Apr 11 14:35:48 2020
 
-@author: deepy
+@author: Deepak Yadav
 """
 
 import pandas as pd
@@ -11,7 +11,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv('TweetsFinalAnalysis_BI.csv', sep=',')
+df = pd.read_csv('TweetsFinalAnalysis.csv', sep=',')
 
 df.head()
 

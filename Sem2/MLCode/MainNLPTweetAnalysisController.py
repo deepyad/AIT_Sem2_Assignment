@@ -2,7 +2,7 @@
 """
 Created on Sun Apr  5 14:29:53 2020
 
-@author: deepy
+@author: Deepak Yadav
 """
 import csv
 import tweepy 
@@ -87,18 +87,18 @@ def main():
 	neutweets = [tweet for tweet in tweets if tweet['sentiment'] == 'neutral'] 
 	
 	with open(r'TweetsFinalAnalysis.csv', 'w', newline='',encoding="utf-8") as csvfile:
-		fieldnames = ['Tweet','Filtered Tweet','TextBlob Polarity','TextBlob Score','Vader Polarity','Vader Score']
+		fieldnames = ['Tweet','FilteredTweet','TextBlob Polarity','TextBlob Score','Vader Polarity','Vader Score']
 		writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 		writer.writeheader()	 
 		for tweet in ptweets: 
 			va=Vader_Analyser.sentiment_scores(tweet['text'])
-			writer.writerow({'Tweet':tweet['text'],'Filtered Tweet':Pre_Processing_Text.pre_process(tweet['text']), 'TextBlob Polarity': 'Positive','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
+			writer.writerow({'Tweet':tweet['text'],'FilteredTweet':Pre_Processing_Text.pre_process(tweet['text']), 'TextBlob Polarity': 'Positive','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
 		for tweet in ntweets: 
 			va=Vader_Analyser.sentiment_scores(tweet['text'])
-			writer.writerow({'Tweet':tweet['text'],'Filtered Tweet':Pre_Processing_Text.pre_process(tweet['text']),'TextBlob Polarity':'Negative','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
+			writer.writerow({'Tweet':tweet['text'],'FilteredTweet':Pre_Processing_Text.pre_process(tweet['text']),'TextBlob Polarity':'Negative','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
 		for tweet in neutweets: 
 			va=Vader_Analyser.sentiment_scores(tweet['text'])
-			writer.writerow({'Tweet':tweet['text'],'Filtered Tweet':Pre_Processing_Text.pre_process(tweet['text']), 'TextBlob Polarity':'Neutral','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
+			writer.writerow({'Tweet':tweet['text'],'FilteredTweet':Pre_Processing_Text.pre_process(tweet['text']), 'TextBlob Polarity':'Neutral','TextBlob Score':str(round(TextBlob_Analyser.get_tweet_sentiment_score(tweet['text']),2)),'Vader Polarity':va[0],'Vader Score':round(va[1],2)})
 
 	print('Size of tweets:=',len(tweets))
 	print('Tweets Read from the Web:=',len(web_tweets))

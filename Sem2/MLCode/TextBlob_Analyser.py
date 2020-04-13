@@ -2,7 +2,7 @@
 """
 Created on Mon Apr  6 20:35:12 2020
 
-@author: deepy
+@author: Deepak Yadav
 """
 from textblob import TextBlob 
 import Pre_Processing_Text

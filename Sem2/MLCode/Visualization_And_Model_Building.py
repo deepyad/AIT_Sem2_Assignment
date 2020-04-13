@@ -2,7 +2,7 @@
 """
 Created on Fri Apr 10 21:14:29 2020
 
-@author: deepy
+@author: Deepak Yadav
 """
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -18,7 +18,7 @@ data.info()
 
 
 Sentiment_count=data.groupby('TextBlob Score').count()
-plt.bar(Sentiment_count.index.values, Sentiment_count['Filtered Tweet'])
+plt.bar(Sentiment_count.index.values, Sentiment_count['FilteredTweet'])
 plt.xlabel('TextBlob Score')
 plt.ylabel('Number of Tweets')
 plt.savefig("TextBlob_NumberOfTweets_Graph.jpg")
@@ -26,21 +26,21 @@ plt.show()
 
 
 Sentiment_count=data.groupby('TextBlob Polarity').count()
-plt.bar(Sentiment_count.index.values, Sentiment_count['Filtered Tweet'])
+plt.bar(Sentiment_count.index.values, Sentiment_count['FilteredTweet'])
 plt.xlabel('TextBlob Polarity')
 plt.ylabel('Number of Tweets')
 plt.savefig("TextBlob_Polarity_Graph.jpg")
 plt.show()
 
 Sentiment_count=data.groupby('Vader Score').count()
-plt.bar(Sentiment_count.index.values, Sentiment_count['Filtered Tweet'])
+plt.bar(Sentiment_count.index.values, Sentiment_count['FilteredTweet'])
 plt.xlabel('Vader Score')
 plt.ylabel('Number of Tweets')
 plt.savefig("VADER_NumberOfTweets_Graph.jpg")
 plt.show()
 
 Sentiment_count=data.groupby('Vader Polarity').count()
-plt.bar(Sentiment_count.index.values, Sentiment_count['Filtered Tweet'])
+plt.bar(Sentiment_count.index.values, Sentiment_count['FilteredTweet'])
 plt.xlabel('Vader Polarity')
 plt.ylabel('Number of Tweets')
 plt.savefig("VADER_Polarity_Graph.jpg")
@@ -52,7 +52,7 @@ plt.show()
 from nltk.tokenize import RegexpTokenizer
 token = RegexpTokenizer(r'[a-zA-Z0-9]+')
 cv = CountVectorizer(lowercase=True,stop_words='english',ngram_range = (1,1),tokenizer = token.tokenize)
-text_counts= cv.fit_transform(data['Filtered Tweet'])
+text_counts= cv.fit_transform(data['FilteredTweet'])
 
 frequencies = sum(text_counts).toarray()[0]
 df=pd.DataFrame(frequencies, index=cv.get_feature_names(), columns=['frequency'])
@@ -79,7 +79,7 @@ for tag, count in zip(vocab, dist):
     ngram_freq[tag]=count
 
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(text_counts, data['Filtered Tweet'], test_size=0.3, random_state=1)
+X_train, X_test, y_train, y_test = train_test_split(text_counts, data['FilteredTweet'], test_size=0.3, random_state=1)
 
 from sklearn.naive_bayes import MultinomialNB
 #Import scikit-learn metrics module for accuracy calculation
@@ -91,11 +91,11 @@ predicted= clf.predict(X_test)
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 tf=TfidfVectorizer()
-text_tf= tf.fit_transform(data['Filtered Tweet'])
+text_tf= tf.fit_transform(data['FilteredTweet'])
 
 
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(text_tf, data['Filtered Tweet'], test_size=0.3, random_state=123)
+X_train, X_test, y_train, y_test = train_test_split(text_tf, data['FilteredTweet'], test_size=0.3, random_state=123)
 
 
 from sklearn.naive_bayes import MultinomialNB
