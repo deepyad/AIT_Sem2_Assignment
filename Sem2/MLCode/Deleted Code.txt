@@ -1,0 +1,19 @@
+print("\n\n ********** TextBlob labelled Positive tweets:") 
+	for tweet in ptweets[:10]: 
+		print('Tweet=> ',tweet['text'])
+		print('---Vader Analysis of above positive(as per TextBlob\'s classification) tweet---')
+		print(Vader_Analyser.sentiment_scores(tweet['text'])) 
+		print('----')	
+	print("\n\n ********** TextBlob labelled Negative tweets:") 
+	for tweet in ntweets[:10]: 
+		print('Tweet=> ',tweet['text']) 
+		print('---Vader Analysis of above negative(as per TextBlob\'s classification) tweet---')
+		print(Vader_Analyser.sentiment_scores(tweet['text']))
+		print('----')	        
+	print("\n\n ********** TextBlob labelled Neutral tweets:") 
+	for tweet in neutweets[:10]: 
+		print('Tweet=> ',tweet['text'])
+		print('---Vader Analysis of above neutral(as per TextBlob\'s classification) tweet---')
+		print(Vader_Analyser.sentiment_scores(tweet['text']))
+		print('----')	
+	

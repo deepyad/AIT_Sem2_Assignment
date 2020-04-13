@@ -1,59 +1,67 @@
 Tweet,Filtered Tweet,TextBlob Polarity,TextBlob Score,Vader Polarity,Vader Score
-"RT @ddale8: Trump calls the virus ""a brilliant enemy."" He adds, ""Antibiotics used to solve every problem"" but now ""the germ has gotten so b…",RT Trump calls virus brilliant enemy He adds Antibiotics used solve every problem germ gotten b,Positive,0.9,negative,-0.15
-"RT @joncoopertweets: FUN FACT: Ivanka Trump, who’ll serve on the White House’s new economy-focused coronavirus task force, was granted a tr…",RT FUN FACT Ivanka Trump serve White House new economy focused coronavirus task force granted tr,Positive,0.15,positive,0.82
-"@MassGovernor Governor, I think you're doing a great job for us during this Covid-19 crisis. From what you've said… https://t.co/n8GADW00l3",Governor I think great job us Covid crisis From said https co nGADWl,Positive,0.8,neutral,0.0
-RT @DrJackKruse: I love seeing Trump taking Acosta apart.  He is not a journalist.........AT ALL,RT I love seeing Trump taking Acosta apart He journalist AT ALL,Positive,0.5,positive,0.64
-"RT @RealJamesWoods: Why did Democrats go so crazy in 2016? Well, follow the money. Trump’s greatest strength is that he sees America’s poli…",RT Why Democrats go crazy Well follow money Trump greatest strength sees America poli,Positive,0.2,positive,0.8
-RT @julie_kelly2: “There are signs that President Trump is tiring of his romance with Drs Fauci and Birx. That would be a good thing. Publi…,RT kelly There signs President Trump tiring romance Drs Fauci Birx That would good thing Publi,Positive,0.7,positive,0.76
-"RT @ThePubliusUSA: Ivanka Trump will be on the COVID-19 economic task force, which reportedly will defy the scientific experts and advocate…",RT Ivanka Trump COVID economic task force reportedly defy scientific experts advocate,Positive,0.2,neutral,0.0
-"RT @RadioFreeTom: Trump now says he can overrule a governor, he has the right to do it, but the reason he doesn’t do it is and I quote: “I…",RT Trump says overrule governor right reason I quote I,Positive,0.29,neutral,0.0
-"RT @ChanelRion: President Trump: Staying at home leads to death - a different kind of death, perhaps, but it too leads to death. The decisi…",RT President Trump Staying home leads death different kind death perhaps leads death The decisi,Positive,0.3,negative,-0.85
-RT @NoahShachtman: this guy — THIS FREAKIN' GUY — is the brain genius behind Trump's favorite miracle drug. https://t.co/gEnEZrrwsw,RT guy THIS FREAKIN GUY brain genius behind Trump favorite miracle drug https co gEnEZrrwsw,Positive,0.05,positive,0.78
-RT @TeamPelosi: Americans don’t trust Trump. He has been completely unprepared in handling the #coronavirus crisis. And he continues to mak…,RT Americans trust Trump He completely unprepared handling coronavirus crisis And continues mak,Positive,0.1,negative,-0.2
-How long do you want to live in subjugation and die for no reason just so people like Trump can profit off of it?,How long want live subjugation die reason people like Trump profit,Positive,0.04,positive,0.2
-"RT @mmpadellan: Reporter just challenged trump on the ""happy talk"" of his fake briefings, saying we don't have enough masks, tests, and PPE…",RT Reporter challenged trump happy talk fake briefings saying enough masks tests PPE,Positive,0.1,positive,0.05
-"RT @Yamiche: Big
+"RT @peterdaou: VOTE FOR #BIDEN OR YOU'RE RESPONSIBLE FOR TRUMP!
 
-President Trump says he has ""absolute authority"" to ease social distancing guidelines.
+vs.
 
-""I don't know that I have had a b…",RT Big President Trump says absolute authority ease social distancing guidelines I know I b,Positive,0.08,positive,0.42
-RT @IngrahamAngle: An old pal in Los Angeles (no Trump fan) just texted me that seven friends of hers (here and in Sweden) ALL took hydroxy…,RT An old pal Los Angeles Trump fan texted seven friends Sweden ALL took hydroxy,Positive,0.1,positive,0.66
-"#OPECmeeting #Mexico #Pemex Should help out more when is really needed AKA, now! Mexican gov. then wants other comp… https://t.co/V1DWcwGJ0A",OPECmeeting Mexico Pemex Should help really needed AKA Mexican gov wants comp https co VDWcwGJA,Positive,0.13,positive,0.4
-"RT @maddow: Good luck, America.
+VOTE FOR #BIDEN BECAUSE HE'LL EMBRACE #M4A &amp; #GND
 
-""Administration officials say the White House has made a deliberate political calculation that it will bet…",RT Good luck America Administration officials say White House made deliberate political calculation bet,Positive,0.23,positive,0.71
-"Let me get this straight;
+Which of these two…",RT VOTE FOR BIDEN OR YOU RE RESPONSIBLE FOR TRUMP vs VOTE FOR BIDEN BECAUSE HE LL EMBRACE MA amp GND Which two,Positive,0.2,positive,0.72
+"RT @John_Albertsen: @TheRickWilson Well, he DID campaign as being EXACTLY like Trump so, 'promises made, promises kept'?",RT Albertsen Well DID campaign EXACTLY like Trump promises made promises kept,Positive,0.25,positive,0.83
+"RT @UROCKlive1: Trump says governors are hardly calling him now. He thinks it's because they're in great shape and don't need anything, but…",RT Trump says governors hardly calling He thinks great shape need anything,Positive,0.25,positive,0.62
+"Yep, Donald Trump really is going to prison https://t.co/ptbe4fLyIZ via @PalmerReport",Yep Donald Trump really going prison via,Positive,0.2,negative,-0.34
+"RT @SethAbramson: MAJOR BREAKING NEWS (THE WASHINGTON POST): Trump Privately Proposed Just Letting Coronavirus ""Wash Over"" America—Killing…",RT MAJOR BREAKING NEWS THE WASHINGTON POST Trump Privately Proposed Just Letting Coronavirus Wash Over America Killing,Positive,0.03,negative,-0.66
+"RT @SethAbramson: The revelation that Trump was willing to let this virus ""wash over"" the country—killing millions—to preserve the economy…",RT The revelation Trump willing let virus wash country killing millions preserve economy,Positive,0.25,negative,-0.66
+"RT @ProudResister: Centrists’ strategy to beat Trump is to shame, blame, attack, and alienate the very voters that they need to win. And th…",RT Centrists strategy beat Trump shame blame attack alienate voters need win And th,Positive,0.8,negative,-0.59
+"RT @HoarseWisperer: We need Benghazi-like hearings about Trump’s early handling of COVID-19.
 
-The Constitution prevents trump from shutting down states and must be left up to Governo… https://t.co/UlbC6f2Bag",Let get straight The Constitution prevents trump shutting states must left Governo https co UlbCfBag,Positive,0.1,positive,0.3
-"RT @ddale8: Asked about all the new unemployment and the long lines at food banks and what he'd say to such people, Trump says, ""#1 I love…",RT Asked new unemployment long lines food banks say people Trump says I love,Positive,0.2,positive,0.32
-"RT @BibleBeltDarlin: President Trump is nailing this press conference to the wall.
+He needs to be spending the summer and fall o…",RT We need Benghazi like hearings Trump early handling COVID He needs spending summer fall,Positive,0.1,positive,0.36
+"@WilliamWino215 Trump said April 30th but we all know that this virus hasn’t progressed positively or slowed down,… https://t.co/qUdnIJ3prQ",Trump said April th know virus progressed positively slowed https co qUdnIJprQ,Positive,0.23,positive,0.53
+"RT @TranslateRealDT: Trump as Captain of the Titanic:
 
-He’s refreshed  on point, intelligent and sharp as a ta…",RT President Trump nailing press conference wall He refreshed point intelligent sharp ta,Positive,0.34,positive,0.46
-RT @GaryFukoffski: Shitlibs blaming lefties for Trump winning in November (which he will) is like blaming vegans for the price of steak and…,RT Shitlibs blaming lefties Trump winning November like blaming vegans price steak,Positive,0.5,negative,-0.13
-"RT @ddale8: Trump says it's true that opening up could lead to death, but: ""Staying at home leads to death also. And it's very traumatic fo…",RT Trump says true opening could lead death Staying home leads death also And traumatic fo,Positive,0.35,negative,-0.87
-"RT @davidfrum: 1) US knew about COVID perhaps as early as mid-November; certainly by end December
+""There is no iceberg. The iceberg's a Democrat Hoax. Okay, there was an iceberg but…",RT Trump Captain Titanic There iceberg The iceberg Democrat Hoax Okay iceberg,Positive,0.5,negative,-0.05
+"RT @1IronMan2O2O: Republicans have been trying to kill the Postal Service for nearly two decades.
 
-2) Any US reliance on WHO was Trump's ow…",RT US knew COVID perhaps early mid November certainly end December Any US reliance WHO Trump ow,Positive,0.1,positive,0.34
-"RT @ChrisMurphyCT: You know how we know that Trump's attacks on the WHO are just an attempt to find a new scapegoat for his failures?
+The goal of Republicans is to bankrupt i…",RT Republicans trying kill Postal Service nearly two decades The goal Republicans bankrupt,Positive,0.1,negative,-0.85
+"RT @ChrisLu44: THREAD: 29,000 DACA recipients are healthcare workers, many helping #COVID19 patients. All could be deported if Trump prevai…",RT THREAD DACA recipients healthcare workers many helping COVID patients All could deported Trump prevai,Positive,0.5,positive,0.3
+"RT @DionForCongress: If Feinstein wants something, we should immediately do the opposite.  Her and her anti-American pals celebrated a sham…",RT If Feinstein wants something immediately opposite Her anti American pals celebrated sham,Positive,0.07,positive,0.34
+"RT @DIDNOTVOTEFOR44: This kind of rhetoric, while almost amusing because it's so unrelated to reality, is also frightening.  
 
-The…",RT You know know Trump attacks WHO attempt find new scapegoat failures The,Positive,0.14,negative,-0.82
-RT @LaikenJordahl: Crews are extracting millions of gallons of groundwater from fragile desert aquifers to mix concrete for the #BorderWall…,RT Crews extracting millions gallons groundwater fragile desert aquifers mix concrete BorderWall,Positive,0.08,neutral,0.0
-"RT @RonaldKlain: Remember when Trump stood in the Rose Garden and promised coast-to-coast drive through testing sites?
+""These peopl…",RT This kind rhetoric almost amusing unrelated reality also frightening These peopl,Positive,0.23,positive,0.36
+"RT @pam_sands: Brilliant move, ⁦@SenFeinstein⁩, giving money to our enemies who want to kill us! 🙄Vote her OUT! 
 
-In a month, they ha…",RT Remember Trump stood Rose Garden promised coast coast drive testing sites In month ha,Positive,0.6,positive,0.6
-"@washingtonpost Without any reasonable doubt 
-Donald Trump's leadership is Void and Null
-His heart &amp; mindset is onl… https://t.co/a1h3twqNah",Without reasonable doubt Donald Trump leadership Void Null His heart amp mindset onl https co ahtwqNah,Positive,0.2,positive,0.28
-RT @elizabethamber: I can live without Trump. I can't live without the @USPS. #SaveThePostOffice,RT I live without Trump I live without SaveThePostOffice,Positive,0.14,neutral,0.0
-"I totally second that. She's my favorite VP nominee.
+Senator Feinstein pushes…",RT sands Brilliant move giving money enemies want kill us Vote OUT Senator Feinstein pushes,Positive,0.9,negative,-0.34
+"RT @ABC: The governor of Maryland pushed back against President Donald Trump's claim at his latest briefing that states are in ""good shape""…",RT The governor Maryland pushed back President Donald Trump claim latest briefing states good shape,Positive,0.4,positive,0.44
+"RT @judybalda: @Kaybirds Very good.
+Get ready Leftists- u will be
+Cursing Trump-Meadows- America-
+Economy-going back to work &amp; so
+On.
 
-We need an experienced law enforcement candidate to take on t… https://t.co/PvlOOuCflm",I totally second She favorite VP nominee We need experienced law enforcement candidate take https co PvlOOuCflm,Positive,0.43,positive,0.5
-"RT @ACTBrigitte: President Trump NEVER sleeps because he is always working for his one special interest group:
+We R…",RT Very good Get ready Leftists u Cursing Trump Meadows America Economy going back work amp On We R,Positive,0.37,positive,0.71
+The latest Twitter Daily! https://t.co/iAJ7upeE45 #trump,The latest Twitter Daily trump,Positive,0.25,neutral,0.0
+"@emilyclaire_ok Well everywhere you go people are criticizing trump, like it’s not something that’s lacking in medi… https://t.co/ia68FAGiTc",ok Well everywhere go people criticizing trump like something lacking medi https co iaFAGiTc,Positive,0.5,positive,0.51
+RT @KwikWarren: 1/ Reza Aslan accurately described white Evangelical trumpers as a racist “doomsday cult” on #AMJoy today. Thread of quotes…,RT Reza Aslan accurately described white Evangelical trumpers racist doomsday cult AMJoy today Thread quotes,Positive,0.2,negative,-0.83
+"RT @ewarren: Voters shouldn’t have to choose between participating in our democracy and keeping themselves safe. 
 
-THE AMERICAN PEOPLE! https:…",RT President Trump NEVER sleeps always working one special interest group THE AMERICAN PEOPLE https,Positive,0.18,positive,0.69
-"RT @LaylaAlisha11: Poll: Trump Is a Better Leader Than Biden During Coronavirus Pandemic!
-44% said @POTUS was better &amp; 36% said Biden would…",RT Poll Trump Is Better Leader Than Biden During Coronavirus Pandemic said better amp said Biden would,Positive,0.5,positive,0.7
-"@RadioFreeTom Of course he is. Who else but a ""stable genius"" could possibly have come to unprecedented conclusion… https://t.co/lRxsybkrjP",Of course Who else stable genius could possibly come unprecedented conclusion https co lRxsybkrjP,Positive,0.3,positive,0.3
+We need to ensure everyo…",RT Voters choose participating democracy keeping safe We need ensure everyo,Positive,0.5,positive,0.67
+"RT @joncoopertweets: Golf Kept Trump From Focusing On COVID-19, Not Impeachment, Zings GOP Group In New Ad
+
+Trump was also tied up at his c…",RT Golf Kept Trump From Focusing On COVID Not Impeachment Zings GOP Group In New Ad Trump also tied c,Positive,0.14,neutral,0.0
+@MMFlint Some good ideas here but we must be careful embracing these ideas bc Trump has raised our national debt th… https://t.co/0NZ2w21BEh,Some good ideas must careful embracing ideas bc Trump raised national debt th https co NZwBEh,Positive,0.3,positive,0.25
+RT @Delavegalaw: The USPS delivers nearly 182M pieces of first class mail every single day. That's just a part of what they do. Some of Tru…,RT The USPS delivers nearly M pieces first class mail every single day That part Some Tru,Positive,0.09,neutral,0.0
+RT @LaurenBaratzL: I proudly say f--k you to Michael Moore and any ostensible Democrat who tries to hold this election hostage. @MMFlint an…,RT I proudly say f k Michael Moore ostensible Democrat tries hold election hostage,Positive,0.35,positive,0.56
+"@PissedOffDr @LRPow79 @Maltomash Salima, all the attractive people support trump, this is fact, get on the train",Salima attractive people support trump fact get train,Positive,0.8,positive,0.68
+"RT @RealMattCouch: ICYMI: President Trump FIRES Intelligence Community Inspector General, Michael Atkinson https://t.co/OGAviaWH1j",RT ICYMI President Trump FIRES Intelligence Community Inspector General Michael Atkinson https co OGAviaWHj,Positive,0.05,positive,0.48
+RT @davidmweissman: This former Trump supporter stands with @JoeBiden. Who is with me to elect a new President?,RT This former Trump supporter stands Who elect new President,Positive,0.31,positive,0.27
+@StewartLewis2 I’ve seen Trump sound normal when he’s reading someone else’s words,I seen Trump sound normal reading someone else words,Positive,0.28,neutral,0.0
+"RT @MrMichaelBurkes: I'll never forget the feeling i had when i voted for President Trump in 2016.
+
+I'm ready to experience that feeling on…",RT I never forget feeling voted President Trump I ready experience feeling,Positive,0.2,positive,0.51
+"RT @Millennial_Dems: We are endorsing @JoeBiden. 
+
+We care about the outcomes for real people across this country that we love so dearly.…",RT Dems We endorsing We care outcomes real people across country love dearly,Positive,0.35,positive,0.88
+"@Muphrie @thehill case 18
+Jessica Drake alleged that Mr Trump forcibly kissed her and two female friends in 2006, w… https://t.co/ph0cA7lsLE",case Jessica Drake alleged Mr Trump forcibly kissed two female friends w https co phcAlsLE,Positive,0.13,positive,0.69
 "['FabbysDelights;rep. @jerrynadler (d-ny) wisely takes key step toward possible impeachment:;West Palm Beach', ' FL & NYC;99;867;0;en;-80.0533746;26.7153424;United States; ; ']",FabbysDelights rep ny wisely takes key step toward possible impeachment West Palm Beach FL NYC en United States,Positive,0.23,positive,0.68
 "[""MVHannigan;i can pretty much regulate my morning by president trump's tweets on @realdonaldtrump ... they always come during the same time frame.; ;724;0;0;en;-100.113952;76.250578;Arctic; ; ""]",MVHannigan pretty much regulate morning president trump tweets always come time frame en Arctic,Positive,0.23,positive,0.49
 "[""realestatesuzzi;@realdonaldtrump @nytimes keep them honest! i love it i can't get enough of it. :-) thank you president trump! :-) i just love saying that!; ;71;0;0;en;-100.113952;76.250578;Arctic;joy; ""]",realestatesuzzi keep honest love get enough thank president trump love saying en Arctic joy,Positive,0.48,positive,0.96
@@ -123,37 +131,41 @@ THE AMERICAN PEOPLE! https:…",RT President Trump NEVER sleeps always working o
 "[""edavid57edavid;the victim of president trump's latest twitter attack? democratic senator richard blumenthal.; ;671;133;0;es;-100.113952;76.250578;Arctic; ; ""]",edavidedavid victim president trump latest twitter attack democratic senator richard blumenthal es Arctic,Positive,0.21,negative,-0.64
 "['aliostad;on annivesary of iranian revoution', ' hardliners quite grateful to president trump for his tough language & some hope heâ€¦;UK;1084;1;0;en;-3.435973;55.378051;United Kingdom of Great Britain and Northern Ireland; ; ']",aliostad annivesary iranian revoution hardliners quite grateful president trump tough language hope UK en United Kingdom Great Britain Northern Ireland,Positive,0.21,positive,0.91
 "['Irishgir70;grand #president #trump removes debris', ' a lot of dust', ' visible path to prosperity rich #america!; ;1422;31;0;en;-100.113952;76.250578;Arctic; ; ']",Irishgir grand president trump removes debris lot dust visible path prosperity rich america en Arctic,Positive,0.44,positive,0.77
-RT @NoahBookbinder: NEW: President Trump’s family took more trips requiring Secret Service protection last FY than the Obamas did in 7 year…,RT NEW President Trump family took trips requiring Secret Service protection last FY Obamas year,Negative,-0.09,neutral,0.0
-"Trump, being ""tough"" on China. https://t.co/N7u8TxnhRT",Trump tough China https co NuTxnhRT,Negative,-0.39,negative,-0.13
-"RT @republiculos: I don't wanna brag, but us resisters have been saying trump was incompetent since before it was cool. amirite?",RT I wan na brag us resisters saying trump incompetent since cool amirite,Negative,-0.07,negative,-0.2
-RT @Independent: Trump claims China 'took advantage' of US in false claims about tariffs https://t.co/QPVY2Svco2,RT Trump claims China took advantage US false claims tariffs https co QPVYSvco,Negative,-0.4,positive,0.25
-RT @jennycohn1: Trump and others are trying to pull this crap in the US. Push back hard. Know that it is psychological warfare and call it…,RT Trump others trying pull crap US Push back hard Know psychological warfare call,Negative,-0.27,negative,-0.64
-"RT @KevBoat44: HOLY SH!T
+RT @funder: BREAKING: Dr. Fauci says less Americans would have gotten sick and died of coronavirus if mitigation efforts to control it were…,RT BREAKING Dr Fauci says less Americans would gotten sick died coronavirus mitigation efforts control,Negative,-0.44,negative,-0.78
+EXCLUSIVE: Fired ICIG Atkinson Helped Create Corrupt Trump Impeachment Sham As Last Ditch Effort to Hide His and Ob… https://t.co/3FUiFshzaJ,EXCLUSIVE Fired ICIG Atkinson Helped Create Corrupt Trump Impeachment Sham As Last Ditch Effort Hide His Ob https co FUiFshzaJ,Negative,-0.23,negative,-0.24
+RT @SenSanders: We cannot allow Donald Trump to use this horrific pandemic as an opportunity to bankrupt and privatize the Postal Service.…,RT We allow Donald Trump use horrific pandemic opportunity bankrupt privatize Postal Service,Negative,-1.0,negative,-0.65
+"RT @gatewaypundit: EASTER SURPRISE... Disgusting Dr. Fauci UNLOADS on Trump  -- ""Lives Could Have Been Saved!"" (Video) https://t.co/Fbudc3E…",RT EASTER SURPRISE Disgusting Dr Fauci UNLOADS Trump Lives Could Have Been Saved Video https co FbudcE,Negative,-1.0,positive,0.3
+"RT @johncardillo: If under any other @POTUS Fauci had been so catastrophically wrong and unprepared, his resignation or firing would have b…",RT If Fauci catastrophically wrong unprepared resignation firing would b,Negative,-0.5,negative,-0.77
+RT @YahooNews: Coronavirus may give President Trump a long sought chance to privatize the Postal Service https://t.co/K1WO34Q2Vy by @hunter…,RT Coronavirus may give President Trump long sought chance privatize Postal Service,Negative,-0.05,positive,0.25
+"RT @nytimes: President Trump was slow to absorb the scale of the risk the coronavirus pandemic posed to the U.S. and to act accordingly, ou…",RT President Trump slow absorb scale risk coronavirus pandemic posed U S act accordingly ou,Negative,-0.3,negative,-0.27
+"RT @OMGno2trump: It was reported that Hitler said ""Give me 10 years &amp; you won't recognize Germany.""  10 years later Germany was in ruins.…",RT It reported Hitler said Give years amp recognize Germany years later Germany ruins,Negative,-0.07,negative,-0.44
+@DemocracyInn Axis of evil includes trump.,Axis evil includes trump,Negative,-1.0,negative,-0.66
+RT @brett_mcgurk: I served for two years in the Trump administration. There’s never coherent planning on anything because Trump himself esc…,RT mcgurk I served two years Trump administration There never coherent planning anything Trump esc,Negative,-0.25,neutral,0.0
+AWFUL! Disgusting Dr. Fauci UNLOADS on Trump on EASTER SUNDAY — “Lives Could Have Been Saved!” (Video) https://t.co/AeoGxLe17Z,AWFUL Disgusting Dr Fauci UNLOADS Trump EASTER SUNDAY Lives Could Have Been Saved Video https co AeoGxLeZ,Negative,-1.0,negative,-0.65
+"@ChrisCuomo My IQ score drops every time I listen to Trump! Let the Doctors talk more and you less!,",My IQ score drops every time I listen Trump Let Doctors talk less,Negative,-0.17,neutral,0.0
+Why do has beens like @MichaelRapaport  keep trying to become significant by saying disgusting things about #Trump… https://t.co/uk9g9BVeUR,Why beens like keep trying become significant saying disgusting things Trump https co ukgBVeUR,Negative,-0.31,neutral,-0.03
+"RT @waltshaub: But the Trump era is a bad time for safeguards. Trump's eye has turned to the IGs, and Republican Senators have forsaken the…",RT But Trump era bad time safeguards Trump eye turned IGs Republican Senators forsaken,Negative,-0.7,negative,-0.39
+"RT @ChidiNwatu: @realDonaldTrump People Trump has blamed for his deadly incompetence..
 
-Deepstate Fauci just got caught leaking info to the mockingbird &amp; trump knows.
+- WHO.
+- China.
+- Media.
+- Canada.
+- Governors.
+- D…",RT People Trump blamed deadly incompetence WHO China Media Canada Governors D,Negative,-0.2,negative,-0.75
+RT @realKathyB: @my2meows @parkercaswell @popsknox I read it. I see the risk of fascism ahead of us but that’s why I’m so confused that Ber…,RT I read I see risk fascism ahead us I confused Ber,Negative,-0.4,negative,-0.53
+ER doctor pounds ‘criminal’ Trump and GOP leaders for inciting fans to plan mass march against the COVID-19 quarant… https://t.co/k45ZVL9Qm9,ER doctor pounds criminal Trump GOP leaders inciting fans plan mass march COVID quarant https co kZVLQm,Negative,-0.4,negative,-0.53
+"RT @tammybluewolf: Behind closed doors, Trump's coronavirus task force boosts industry and sows confusion https://t.co/xVSCMjrJHv",RT Behind closed doors Trump coronavirus task force boosts industry sows confusion https co xVSCMjrJHv,Negative,-0.25,neutral,0.03
+"So you're picking Trump to help?
+HOW. STUPID. ARE. YOU? https://t.co/QRJf0ufIy1",So picking Trump help HOW STUPID ARE YOU https co QRJfufIy,Negative,-0.8,negative,-0.29
+"RT @HKrassenstein: FACT: Trump wants to let the #USPostalService fail.
 
-The Sham is up! https://t.co/useG…",RT HOLY SH T Deepstate Fauci got caught leaking info mockingbird amp trump knows The Sham https co useG,Negative,-0.2,neutral,0.0
-"RT @PodSaveAmerica: TRUMP: ""You don't need testing ...You don't need to test every single person to say let's open up [in Iowa]."" 
+The Constitution says he can’t!
 
-Reality…",RT TRUMP You need testing You need test every single person say let open Iowa Reality,Negative,-0.04,neutral,0.0
-#icymi Republicans have been trying to destroy the United States Postal Service for years. Looks like they're close… https://t.co/sHisa2YxD3,icymi Republicans trying destroy United States Postal Service years Looks like close https co sHisaYxD,Negative,-0.2,positive,0.2
-"@The_UnSilent_ With 1 American dieing every 47 second,  Trump's failure to start preparing, how can you still support Trump",UnSilent With American dieing every second Trump failure start preparing still support Trump,Negative,-0.11,negative,-0.15
-"RT @CherokeeOwl: 🔥Dems want to keep Racism Alive
+Article 1, Section 8: [The Congres…",RT FACT Trump wants let USPostalService fail The Constitution says Article Section The Congres,Negative,-0.15,negative,-0.54
+"RT @UNeedlework: 🗣EVERYONE
 
-🧨They Enccourage Blacks to Hate Whites - They call Trump Racist!
-
-☄️Why? VOTES! They Want…",RT Dems want keep Racism Alive They Enccourage Blacks Hate Whites They call Trump Racist Why VOTES They Want,Negative,-0.35,negative,-0.86
-"RT @mmpadellan: trump just said ""this horrible monster just came and worked its spell on the world,"" and he could have been talking about h…",RT trump said horrible monster came worked spell world could talking h,Negative,-1.0,negative,-0.54
-@VJCortese @WalshFreedom It is literally impossible to be worse than Trump in any category. The man is a buffoon an… https://t.co/d2Lq4v3iUk,It literally impossible worse Trump category The man buffoon https co dLqviUk,Negative,-0.53,negative,-0.48
-RT @RoArquette: Ivanka trump now  has  trademarks on coffins and voting machines. This is deeply disturbing.,RT Ivanka trump trademarks coffins voting machines This deeply disturbing,Negative,-0.5,negative,-0.56
-"RT @Mark_E_Noonan: Mona Charen, in National Review, telling is that the corrupt, old bully Joe Biden is the man who can unify the country.…",RT E Noonan Mona Charen National Review telling corrupt old bully Joe Biden man unify country,Negative,-0.2,negative,-0.49
-@DailyCaller Fauci isn’t handling anything without Trump’s approval; another silly poll.,Fauci handling anything without Trump approval another silly poll,Negative,-0.5,negative,-0.35
-"@AngieNC3 @Banks54589787 @KenDilanianNBC Let over 16,000 die a horrible Death, the Deaths out weights the lives sav… https://t.co/G3DOfskrEV",Let die horrible Death Deaths weights lives sav https co GDOfskrEV,Negative,-1.0,negative,-0.91
-RT @funder: I hope everyone who loses someone to coronavirus sues Trump over his fraud.,RT I hope everyone loses someone coronavirus sues Trump fraud,Negative,-0.3,negative,-0.49
-This is so stupid. It was touted by thousands of doctors worldwide long before Trump had even heard of it. Why is 9… https://t.co/mBynhHTfKj,This stupid It touted thousands doctors worldwide long Trump even heard Why https co mBynhHTfKj,Negative,-0.42,negative,-0.56
-"RT @DearAuntCrabby: Evangelist Warned Americans If Trump Is Removed From Office, His Supporters Would ""Hunt Down"" The People Who Did It To…",RT Evangelist Warned Americans If Trump Is Removed From Office His Supporters Would Hunt Down The People Who Did It To,Negative,-0.16,positive,0.2
-"RT @ddale8: Have to emphasize again that Trump doesn't get to unilaterally decide whether the economy is ""open"" or ""closed."" These decision…",RT Have emphasize Trump get unilaterally decide whether economy open closed These decision,Negative,-0.2,neutral,0.0
-RT @CalThunderSnow: And the networks are granting FREE airtime for trump to brag about the stock mkt and babble useless nonsense to a weary…,RT And networks granting FREE airtime trump brag stock mkt babble useless nonsense weary,Negative,-0.05,negative,-0.07
+My 16yo niece is bored in captivity and to mess with her trump supporter father she has invented a new game. Sh…",RT EVERYONE My yo niece bored captivity mess trump supporter father invented new game Sh,Negative,-0.23,negative,-0.36
 ['Flwrgirl66x;congress must not allow president trump to unleash a dangerous and costly nuclear arms race.; ;245;5672;0;en;-100.113952;76.250578;Arctic; ; '],Flwrgirlx congress must allow president trump unleash dangerous costly nuclear arms race en Arctic,Negative,-0.6,negative,-0.38
 "['sunezzell;anne frank center calls out trump and house republicans for ""anti-semitismâ€\x9d over holocaust statement;California;377;127;0;en;-119.4179324;36.778261;United States; ; ']",sunezzell anne frank center calls trump house republicans anti semitism xd holocaust statement California en United States,Negative,-0.1,positive,0.65
 "[""COMRADEBLOOM;president trump: don't legalize hateful discrimination; ;299;0;0;en;-100.113952;76.250578;Arctic;anger; ""]",COMRADEBLOOM president trump legalize hateful discrimination en Arctic anger,Negative,-0.7,negative,-0.78
@@ -176,80 +188,65 @@ RT @CalThunderSnow: And the networks are granting FREE airtime for trump to brag
 "['H_Hawkes16;soros: â€˜i will take down president trumpâ€™. analyst - ""soros a wounded beast', ' bent on revenge"".;Texas', ' USA;3951;88;0;en;-99.9018131;31.9685988;United States;anger; ']",H Hawkes soros take president trump analyst soros wounded beast bent revenge Texas USA en United States anger,Negative,-0.7,negative,-0.65
 "['GaryRandone;@realdonaldtrump @nytimes thank you president trump for keeping the people informed of the facts;Long Island', ' NY;10;0;0;en;-73.134961;40.789142;United States; ; ']",GaryRandone thank president trump keeping people informed facts Long Island NY en United States,Negative,-0.05,positive,0.65
 "[""JpadiJj;@realdonaldtrump @nytimes thank you sir. expose all these fake media's. we support president trump.; ;7;0;0;en;-100.113952;76.250578;Arctic; ; ""]",JpadiJj thank sir expose fake media support president trump en Arctic,Negative,-0.5,positive,0.13
-RT @Stellablue9: Staying at home leads to deaths versus opening the country leads to deaths... Trump says he has to consider this when maki…,RT Staying home leads deaths versus opening country leads deaths Trump says consider maki,Neutral,0.0,neutral,0.0
-"RT @briciosegovia: ""Estados Unidos va a ayudar a México"" con el recorte de barriles acordado por las potencias petroleras, comienza diciend…",RT Estados Unidos va ayudar M xico con el recorte de barriles acordado por las potencias petroleras comienza diciend,Neutral,0.0,neutral,0.0
-"RT @GMonroyEnergy: Está bien activa la horda pejezombie tratando de imponer la falsa narrativa que MX salió bien parado.
+"Also, do you want Trump's cabinet clowns to continue for another 4 years? https://t.co/juLfBMSyy8",Also want Trump cabinet clowns continue another years https co juLfBMSyy,Neutral,0.0,positive,0.08
+RT @GodFamilyJesus: Donald Trump said Congress was too distracted by the Impeachment when they should have been investigating the CoronaVir…,RT Donald Trump said Congress distracted Impeachment investigating CoronaVir,Neutral,0.0,negative,-0.34
+@munyelele @glennkirschner2 @washingtonpost Different language than “ride it out like a cowboy” same meaning: let t… https://t.co/7bkeiuprhJ,Different language ride like cowboy meaning let https co bkeiuprhJ,Neutral,0.0,positive,0.36
+"RT @diaz_manuel: ¿Alguien me puede recomendar alguna columna que hable positivamente de la 4T en relación a la OPEP y Trump? 
 
-No señores, es se…",RT Est bien activa la horda pejezombie tratando de imponer la falsa narrativa que MX sali bien parado No se ores es se,Neutral,0.0,negative,-0.3
-"FACT - Trump, his extended family, most of the GOP Senate have investment interests in Boeing; it’s critical to mil… https://t.co/Du4KxClqTz",FACT Trump extended family GOP Senate investment interests Boeing critical mil https co DuKxClqTz,Neutral,0.0,negative,-0.08
-"RT @QmagaMike: 💖TRUMP💖z56
-@MRCJUSTRIDEIT👍
-@markkirin_
-@DoingRight1
-@bbl58
-@FairyQ15
-@sjlnlgl5451
-@MissClique131
-@twojjrs
-@rsilk50_rita
-@Doc…",RT TRUMP z rita,Neutral,0.0,neutral,0.0
-RT @RevDrBarber: Trump/Pence/McConnell have given trillions to corporations &amp; are considering trillions more. This woman’s daughter was a g…,RT Trump Pence McConnell given trillions corporations amp considering trillions This woman daughter g,Neutral,0.0,neutral,0.0
-"RT @atrupar: Trump says ""I want to get [the economy] open as soon as we can. We have to get our country open."" Asked what criteria he'll us…",RT Trump says I want get economy open soon We get country open Asked criteria us,Neutral,0.0,positive,0.08
-RT @Whereisblockaye: When my $1200 check from Trump comes in https://t.co/AR5r9vK3Ht,RT When check Trump comes https co ARrvKHt,Neutral,0.0,neutral,0.0
-i dont like joe biden but u do know he has a speech impediment...remember when trump mocked a man with a disability… https://t.co/OcVQp8higD,dont like joe biden u know speech impediment remember trump mocked man disability https co OcVQphigD,Neutral,0.0,negative,-0.53
-"@dayoff317 @FlintyMaguire @thehill Trump told the states to take care of themselves, and  that the federal stockpil… https://t.co/dMHt6pXWMg",Trump told states take care federal stockpil https co dMHtpXWMg,Neutral,0.0,positive,0.49
-"RT @ddale8: Trump: ""We're getting very few calls from governors or anybody else needing anything.""",RT Trump We getting calls governors anybody else needing anything,Neutral,0.0,neutral,0.0
-RT @jdawsey1: Trump claims that doctors and elected officials say on CNN that they don't have enough materials because they know they won't…,RT Trump claims doctors elected officials say CNN enough materials know,Neutral,0.0,neutral,0.0
-"RT @RadioFreeTom: What metrics will you use to decide whether to re-open the country? As God is my witness, Trump just pointed at his own f…",RT What metrics use decide whether open country As God witness Trump pointed f,Neutral,0.0,positive,0.27
-"RT @PalmerReport: Trump is using these press briefings as de facto campaign rallies.
+Nada más no…",RT manuel Alguien puede recomendar alguna columna que hable positivamente de la T en relaci n la OPEP Trump Nada,Neutral,0.0,neutral,0.0
+RT @nowthisnews: Watch Cardi B blast Trump's lack of leadership skills during the coronavirus pandemic https://t.co/vOoca0atJR,RT Watch Cardi B blast Trump lack leadership skills coronavirus pandemic https co vOocaatJR,Neutral,0.0,negative,-0.32
+"RT @globalistIT: Fauci critica Trump: ""Misure adottate in tempo avrebbero salvato più vite""
+#COVID2019 
+https://t.co/BtD16CGwtN",RT Fauci critica Trump Misure adottate tempo avrebbero salvato pi vite COVID https co BtDCGwtN,Neutral,0.0,neutral,0.0
+RT @Weinsteinlaw: Are we going to talk about Trump trying to bankrupt the postal service so people can’t vote by mail or nah.,RT Are going talk Trump trying bankrupt postal service people vote mail nah,Neutral,0.0,negative,-0.61
+"RT @VoteBlueIn2020: Bill Gates' dire warning: U.S. could lose its global leadership role under Trump
+https://t.co/lGAdY8yT1C",RT Bill Gates dire warning U S could lose global leadership role Trump https co lGAdYyTC,Neutral,0.0,negative,-0.8
+RT @nycsouthpaw: It’s not a “bailout” to for the government to fund critical infrastructure owned by the government. Stop calling it that.…,RT It bailout government fund critical infrastructure owned government Stop calling,Neutral,0.0,negative,-0.6
+RT @PartymanRandy: The media is telling us Trump should have suspended the constitution and shut down the country back when they were writi…,RT The media telling us Trump suspended constitution shut country back writi,Neutral,0.0,negative,-0.48
+"RT @votevets: Infuriating. According to USPS' last count, nearly 100,000 veterans have jobs with the postal service. And many more have job…",RT Infuriating According USPS last count nearly veterans jobs postal service And many job,Neutral,0.0,negative,-0.53
+@ThePubliusUSA Specifically Sochi.  Anyone ever hear of a Trump tower going up here?,Specifically Sochi Anyone ever hear Trump tower going,Neutral,0.0,neutral,0.0
+@w_airbag15 @Goss30Goss @DemSocialists @JoeBiden I suppose you take immense pride in enabling a second trump term then?,airbag I suppose take immense pride enabling second trump term,Neutral,0.0,positive,0.34
+RT @Strandjunker: Raise your hand if you agree that Trump must immediately be stopped from intentionally killing the #USPostalService (USPS…,RT Raise hand agree Trump must immediately stopped intentionally killing USPostalService USPS,Neutral,0.0,negative,-0.15
+SNL’s Trump returns during lockdown to boast abut his ratings and being ‘number one’ in coronavirus victims - https://t.co/TH90Jt2z4W,SNL Trump returns lockdown boast abut ratings number one coronavirus victims https co THJtzW,Neutral,0.0,negative,-0.25
+"RT @BarbraStreisand: I wrote a song called ”Don’t Lie to Me” after Trump was elected, because he was a serial liar. Now, with more than 20,…",RT I wrote song called Don Lie Me Trump elected serial liar Now,Neutral,0.0,negative,-0.51
+"RT @thanos_zer: This was what El Rufai's son sent before blocking me.
+I'm not even Igbo and none of what he said got to me. He can't call B…",RT zer This El Rufai son sent blocking I even Igbo none said got He call B,Neutral,0.0,negative,-0.38
+"@JoeBiden You would have kept open the flights to China, your own words not mine. You called President Trump a xeno… https://t.co/rsI3S4pjH5",You would kept open flights China words mine You called President Trump xeno https co rsISpjH,Neutral,0.0,neutral,0.0
+"RT @SethAbramson: PS3/ Crimson Contagion, the NCMI Report, Navarro's Memo, briefings by Azar, the Coronavirus Task Force, his PDBs, the NSC…",RT PS Crimson Contagion NCMI Report Navarro Memo briefings Azar Coronavirus Task Force PDBs NSC,Neutral,0.0,negative,-0.46
+Trump’s biggest accomplishment- exploiting the paper we use to wipe our asses for massive profit. Speculators are c… https://t.co/8t6bhz0Ile,Trump biggest accomplishment exploiting paper use wipe asses massive profit Speculators c https co tbhzIle,Neutral,0.0,neutral,0.0
+"RT @francis1928: Dear #MAGA and #Evangelicals here's some more shyt about your boi.
 
-The cable news networks are negligent for airing them…",RT Trump using press briefings de facto campaign rallies The cable news networks negligent airing,Neutral,0.0,neutral,0.0
-RT @RadioFreeTom: Trump now claims he doesn’t like doing these press conferences. This might be the most obvious lie he has told all week.,RT Trump claims like press conferences This might obvious lie told week,Neutral,0.0,positive,0.36
-"RT @ddale8: Trump boasts about building ""168 miles"" of wall. As of the official April 3 update from CBP, it was 151 miles, 2 of which were…",RT Trump boasts building miles wall As official April update CBP miles,Neutral,0.0,neutral,0.0
-RT @PaulDillon18: Poll finds Biden with 11-point national lead on Trump https://t.co/Fi2teJVUOK,RT Poll finds Biden point national lead Trump https co FiteJVUOK,Neutral,0.0,neutral,0.0
-https://t.co/GeOj5km5dh,https co GeOjkmdh,Neutral,0.0,neutral,0.0
-https://t.co/H711CG5lNP,https co HCGlNP,Neutral,0.0,neutral,0.0
-"RT @kylegriffin1: Reuters' Jeff Mason: What metrics will you use when making the decision to re-open the economy?
+Trump knew of Navarro memo warning 500,000 'American s…",RT Dear MAGA Evangelicals shyt boi Trump knew Navarro memo warning American,Neutral,0.0,positive,0.05
+"RT @kayakbassmafia: Nancy Pelosi Says Congress Will NOT Reopen In April, Warns Trump Not To Restart Economy | The Daily Wire #DemocratsHate…",RT Nancy Pelosi Says Congress Will NOT Reopen In April Warns Trump Not To Restart Economy The Daily Wire DemocratsHate,Neutral,0.0,negative,-0.1
+@Roloic A priori accord sur 10 via le Koweït. Le minimum du minimum pour Trump. Mais pas sûr que les marchés appréc… https://t.co/Tqrd9oD1g8,A priori accord sur via le Kowe Le minimum du minimum pour Trump Mais pas r que les march appr c https co TqrdoDg,Neutral,0.0,neutral,0.0
+"RT @IrvingGatell: Todo parece indicar que se aplica el plan: EUA sale al quite por México, y nos endeudamos con Trump del modo más estúpido…",RT Todo parece indicar que se aplica el plan EUA sale al quite por M xico nos endeudamos con Trump del modo est pido,Neutral,0.0,neutral,0.0
+RT @Kimgtrue2me: @forwardarc @USATODAY The 15% of Bernie supporters who would vote for Trump are the crash and burn people who would rather…,RT The Bernie supporters would vote Trump crash burn people would rather,Neutral,0.0,positive,0.05
+"@JonLemire Trump pays a whore $130,000. McConnell has Kentucky citizens pay $29 Million to Russian company for noth… https://t.co/BttY6LixLP",Trump pays whore McConnell Kentucky citizens pay Million Russian company noth https co BttYLixLP,Neutral,0.0,negative,-0.69
+"RT @ladyoldandgray: Every American must acknowledge that psychopath Trump’s malice is made possible by the complicity of the #GOPutin. 
 
-Trump (pointing to his h…",RT Reuters Jeff Mason What metrics use making decision open economy Trump pointing h,Neutral,0.0,neutral,0.0
-RT @EmilioAlvarezI: En agradecimiento por los 27 mil soldados #GuardiaNacional con que ⁦@lopezobrador_⁩ se plegó a ⁦@realDonaldTrump⁩ contr…,RT En agradecimiento por los mil soldados GuardiaNacional con que se pleg contr,Neutral,0.0,neutral,0.0
-"RT @stillgray: Trump just OBLITERATED Jim Acosta for lying about how there's not enough ventilators, hospital beds, etc.",RT Trump OBLITERATED Jim Acosta lying enough ventilators hospital beds etc,Neutral,0.0,negative,-0.8
-RT @mishakatia46ya1: @ClubRod1 @RL9631 @Sundncefn @RescueFarm1 @SteveEmery03 @zimmerman_bell @anna2539 @ConnerJanith @MaryMastersMS @heyk19…,RT bell,Neutral,0.0,neutral,0.0
-"Trump just said (to a question from @Acosta , unequivocally that we
- 
-a) have enough masks
-b) have enough tests
-c)… https://t.co/15dumWoLjn",Trump said question unequivocally enough masks b enough tests c https co dumWoLjn,Neutral,0.0,neutral,0.0
-"RT @DoliaEstevez: EU va a recorta 250 mil barriles para que México solo tenga que reducir 100 mil en la negociación con OPEC+, corrobora Tr…",RT EU va recorta mil barriles para que M xico solo tenga que reducir mil en la negociaci n con OPEC corrobora Tr,Neutral,0.0,neutral,0.0
-"RT @DailyCaller: President Trump says that on Tuesday, he will announce the creation of the  “Opening our Country Council,” a task force fo…",RT President Trump says Tuesday announce creation Opening Country Council task force fo,Neutral,0.0,positive,0.27
-"RT @MoveOn: Trump's nonstop lies about the coronavirus pandemic are having fatal consequences.
+Do…",RT Every American must acknowledge psychopath Trump malice made possible complicity GOPutin Do,Neutral,0.0,neutral,0.0
+"RT @catturd2: I see Dr. Fauci was on CNN, today, turning on President Trump.
 
-TV Networks must stop airing his daily pres…",RT Trump nonstop lies coronavirus pandemic fatal consequences TV Networks must stop airing daily pres,Neutral,0.0,negative,-0.82
-"RT @Catmandu50: Australia has given tacit backing to President Trump’s move to defund WHO, saying their country’s own situation would be a…",RT Australia given tacit backing President Trump move defund WHO saying country situation would,Neutral,0.0,neutral,0.03
-"RT @jonfavs: We're on our own: 
+Knew that was coming. 
 
-""Administration officials..say the White House has made a deliberate political calculation that it will be…",RT We Administration officials say White House made deliberate political calculation,Neutral,0.0,neutral,0.0
-Trump finally make sense and showing some compassion,Trump finally make sense showing compassion,Neutral,0.0,positive,0.46
-RT @SputnikMundo: 🇺🇸 🇷🇺   Putin debate con @realDonaldTrump la situación en el mercado global de petróleo 👇 https://t.co/dvrpF8uLaK,RT Putin debate con la situaci n en el mercado global de petr leo https co dvrpFuLaK,Neutral,0.0,neutral,0.0
-RT @thehill: Ex-Homeland Security secretary slams Trump administration's coronavirus response https://t.co/7EUZtV5uMm https://t.co/C7k96mKH…,RT Ex Homeland Security secretary slams Trump administration coronavirus response https co CkmKH,Neutral,0.0,positive,0.34
-"RT @SedonaRedAZ: Can’t beat Trump 🇺🇸
-@SassySouthern10 
-@TombStoneWyatt 
-@KeishaJake 
-@HuckleberryHp 
-@TombstoneJosie 
-@TheUnsilentMaj3 
-@ad…",RT Can beat Trump,Neutral,0.0,neutral,0.0
-RT @adancoromoto: Nos unimos a las voces del mundo que una vez más denuncian que #ElBloqueoMata; y reiteramos nuestro rechazo a las nuevas…,RT Nos unimos las voces del mundo que una vez denuncian que ElBloqueoMata reiteramos nuestro rechazo las nuevas,Neutral,0.0,neutral,0.0
-"RT @nancylevine: @joncoopertweets Ivanka Trump’s Chinese trademarks raise questions about potential conflicts of interest
+He's going to try to shift blame for…",RT I see Dr Fauci CNN today turning President Trump Knew coming He going try shift blame,Neutral,0.0,negative,-0.34
+RT @thehill: Trump sparks debate over merits of voting by mail https://t.co/6pF2i966Hy https://t.co/EdDdGe9mrw,RT Trump sparks debate merits voting mail https co EdDdGemrw,Neutral,0.0,positive,0.4
+RT @fras99: Trump was supposed to kill one guy in the middle of 5th Avenue not 20 thousand across America.,RT Trump supposed kill one guy middle th Avenue thousand across America,Neutral,0.0,negative,-0.69
+"With Gloucester and Atlantic County, I may be too bullish on Trump chances, esp on Atlantic County.",With Gloucester Atlantic County I may bullish Trump chances esp Atlantic County,Neutral,0.0,positive,0.2
+"RT @_SemaHernandez_: Privatization of the United States Postal Service will happen if Congress doesn’t act to stop it immediately.
 
-""The trademarks,…",RT Ivanka Trump Chinese trademarks raise questions potential conflicts interest The trademarks,Neutral,0.0,positive,0.1
-RT @realTuckFrumper: Cuomo calls on Trump to invoke DPA for antibody tests https://t.co/VAfqTFsZ1k,RT Cuomo calls Trump invoke DPA antibody tests https co VAfqTFsZk,Neutral,0.0,neutral,0.0
-"RT @MollyDugan990: @ThomasLinkoff They ring their hands over Bernie voters but when 80% of us voted Hillary in 16 she still lost. 
-They nee…",RT They ring hands Bernie voters us voted Hillary still lost They nee,Neutral,0.0,negative,-0.32
-#AMLO cayó “como anillo al dedo” a los intereses de #Trump 🤷‍♀️,AMLO cay como anillo al dedo los intereses de Trump,Neutral,0.0,neutral,0.0
-RT @PalmerReport: Trump's ongoing threat to prematurely reopen the economy is yet another reminder that we need to vote him out. But it's n…,RT Trump ongoing threat prematurely reopen economy yet another reminder need vote But n,Neutral,0.0,negative,-0.3
-@Acyn Science graduate of Trump U.,Science graduate Trump U,Neutral,0.0,neutral,0.0
+Where i…",RT SemaHernandez Privatization United States Postal Service happen Congress act stop immediately Where,Neutral,0.0,positive,0.15
+RT @Hispantv: Mientras #DonaldTrump sigue siendo criticado por la gestión de la #COVID__19 surge una revelación sobre su negligencia ante l…,RT Mientras DonaldTrump sigue siendo criticado por la gesti n de la COVID surge una revelaci n sobre su negligencia ante l,Neutral,0.0,positive,0.46
+"RT @WalshFreedom: Hey @MMFlint, if a conservative like me can agree to work his ass off for @JoeBiden, can’t a progressive like you?
+
+The o…",RT Hey conservative like agree work ass progressive like The,Neutral,0.0,positive,0.46
+RT @guardianscience: US's global reputation hits rock-bottom over Trump's coronavirus response https://t.co/rScy7l3oLd,RT US global reputation hits rock bottom Trump coronavirus response https co rScyloLd,Neutral,0.0,neutral,0.0
+RT @xaipe3: He’s the British version of Trump.,RT He British version Trump,Neutral,0.0,neutral,0.0
+RT @kylegriffin1: Trump's Virginia vineyard could be eligible for a federal bailout under the $2.2 trillion coronavirus stimulus he signed…,RT Trump Virginia vineyard could eligible federal bailout trillion coronavirus stimulus signed,Neutral,0.0,negative,-0.1
+RT @tribelaw: If Fauci keeps telling the truth &amp; people figure out that he’s admitting Trump has the blood of thousands of Americans on his…,RT If Fauci keeps telling truth amp people figure admitting Trump blood thousands Americans,Neutral,0.0,positive,0.32
+"@maggieNYT Trump, Hannity and their ilk are running scared. Biden is not who they wanted to face plus the Obamas are about to be unleashed.",Trump Hannity ilk running scared Biden wanted face plus Obamas unleashed,Neutral,0.0,negative,-0.44
+"RT @BaisleyDB: @gatewaypundit Let's see Dr. Fauci, Bill Gate's friend and business cohort who claimed that the virus could only be transmit…",RT Let see Dr Fauci Bill Gate friend business cohort claimed virus could transmit,Neutral,0.0,positive,0.49
+"RT @NBCNews: ""I want (people) to think of what it means that prospective medical service corps officers have been turned away and are being…",RT I want people think means prospective medical service corps officers turned away,Neutral,0.0,positive,0.08
 ['Nexus7900;liberal alert!  21 days ... and guess what!  president trump is still your president. ðŸ‘\x8dðŸ\x8f»ðŸ‘\x8fðŸ\x8f»ðŸ‘ŠðŸ\x8f»ðŸ‡ºðŸ‡¸; ;9781;4;0;en;-100.113952;76.250578;Arctic;fear; '],Nexus liberal alert days guess president trump still president xd xf xf xf xf en Arctic fear,Neutral,0.0,positive,0.42
 ['jamibethanne;.@repbilljohnson congress must step up and overturn president trumpâ€™s discriminatory #eo banning #immigrants & #refugees #oxfam4refugees; ;3;0;0;en;-100.113952;76.250578;Arctic; ; '],jamibethanne congress must step overturn president trump discriminatory eo banning immigrants refugees oxfamrefugees en Arctic,Neutral,0.0,neutral,0.0
 "['A_Broham;""president trump agreed', ' at the request of president xi', ' to honor our \'one china\' policy.""  ordered around by the president ofâ€¦; ;217;290;0;en;-100.113952;76.250578;Arctic; ; ']",A Broham president trump agreed request president xi honor one china policy ordered around president en Arctic,Neutral,0.0,positive,0.65

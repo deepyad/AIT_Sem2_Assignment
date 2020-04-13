@@ -18,7 +18,7 @@ def sentiment_scores(sentence):
 	
 	preprocessed_text=Pre_Processing_Text.pre_process(sentence)
 	
-	print('preprocessed_text='+str(preprocessed_text))
+	#print('preprocessed_text='+str(preprocessed_text))
 	sentiment_dict = sid_obj.polarity_scores(preprocessed_text) 
 
 	fig=sentiment_dict['compound']
@@ -32,6 +32,6 @@ def sentiment_scores(sentence):
 	else : 
 #		print("Neutral") 
 		vp='neutral'
-	print("vp",vp," fig",fig) 
+	#print("vp",vp," fig",fig) 
 	return vp,fig
 
